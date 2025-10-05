@@ -23,6 +23,11 @@ const App = () => {
           </Routes>
         </main>
       </BrowserRouter>
+
+      <footer className='w-full flex justify-center items-center bg-white sm:px-8 px-4 py-4 border-t border-t-[#e6ebf4]'>
+        <p className='text-sm text-gray-600'>© 2023 AI Image Generator. All rights reserved.</p>
+      </footer>
+      
     </div>
   )
 }
